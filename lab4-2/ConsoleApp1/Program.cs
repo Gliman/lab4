@@ -12,10 +12,12 @@ namespace lab4
     {
         static void Main(string[] args)
         {
-            //blalbalb;
+            //b lalbalb;
+            // asdasdf
             var assembly = Assembly.GetExecutingAssembly();
             var fileVersionInfo = FileVersionInfo.GetVersionInfo(assembly.Location);
             var version = fileVersionInfo.ProductVersion;
+            Console.WriteLine(version);
             Console.WriteLine(version);
             Console.ReadLine();
         }
